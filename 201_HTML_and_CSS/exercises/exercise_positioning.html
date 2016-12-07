@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <style>
+    section {}
+
+    .tr {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 400px;
+        padding: 30px 15px;
+        margin-left: -200px;
+        background: #ffffcc;
+        box-sizing: border-box;
+        z-index: 2;
+        margin-top: 20px;
+    }
+
+    .lightbox {
+      position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, .6);
+    }
+
+.child {
+  width: 20px;
+height: 20px;
+background: #fcfc99;
+position: absolute;
+left: -10px;
+top: -10px;
+}
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur, risus ut laoreet hendrerit, tortor est tristique sem, nec placerat ipsum nisl sit amet leo. Nulla sed massa id metus elementum cursus id at ex. Suspendisse pellentesque, orci ut mollis tincidunt, elit sem tincidunt risus, nec egestas nulla leo sit amet dui. Ut sem nunc, bibendum eu turpis ac, aliquam bibendum dolor. Sed tellus risus, ultricies fringilla interdum eget, mollis vitae elit. Curabitur congue ipsum nulla, at accumsan nibh bibendum a. Nam commodo dui sagittis augue ullamcorper molestie vitae molestie mauris.</p>
+        <p>Maecenas libero massa, rutrum nec justo sit amet, aliquet eleifend est. Fusce venenatis tincidunt ex, eget iaculis libero laoreet sit amet. Morbi augue felis, venenatis in lectus ac, ullamcorper posuere ligula. Fusce commodo et tellus non semper. Nulla a ligula ac dui suscipit aliquet. Curabitur est risus, tincidunt id tellus ac, suscipit euismod nunc. Donec eu sapien vitae nibh fermentum hendrerit vitae eget lorem. Maecenas dictum luctus enim, id ultricies purus porta sed. Donec commodo hendrerit condimentum. Duis eget consequat metus. Nam commodo urna nunc, sit amet pulvinar purus eleifend non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec lacinia mauris nec urna ultrices viverra eget vel justo. Donec vitae diam ipsum.</p>
+        <p>Suspendisse eget enim sit amet eros varius aliquet. Nam ex est, bibendum a sem at, porta sagittis urna. Pellentesque ut convallis augue, eu tristique tellus. Curabitur volutpat, massa nec pulvinar tristique, nisi justo ornare ex, id aliquet nisi diam a tortor. Integer vel varius metus. Etiam nec massa bibendum, interdum erat vel, porta mi. Donec vel augue molestie, egestas ante eu, maximus enim. Quisque placerat gravida felis, vitae tristique sem vestibulum at. Proin interdum turpis tristique, consequat justo nec, feugiat tortor. Nullam congue a est sed sagittis. Pellentesque a condimentum massa. Vivamus ut purus eget urna malesuada imperdiet quis id nulla. Sed vel laoreet leo.</p>
+        <p>Ut eget luctus nisl. Suspendisse potenti. Maecenas sed nulla non erat gravida placerat. In libero turpis, tincidunt ut dapibus eu, hendrerit quis quam. Aenean iaculis orci nec vestibulum sodales. Duis ac mi sit amet erat fermentum cursus id vitae tellus. Praesent ut arcu ligula. Donec viverra at mauris eu dignissim. Cras suscipit, felis sed feugiat rutrum, purus sem luctus massa, vitae iaculis tortor orci eu risus. Sed lacinia lectus eget augue condimentum semper. Sed dui nisl, dapibus eu mattis ac, pellentesque eget neque. Ut posuere quam at ex luctus tincidunt. Aliquam eu urna posuere, ultrices mi sit amet, convallis nunc. Donec finibus ligula nisi, eu facilisis ante ullamcorper vitae. Etiam sit amet nisi ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </section>
+    <div class="tr"><div class="child"></div>I'm positioned</div>
+    <div class="lightbox"></div>
+</body>
+
+</html>
